@@ -1,0 +1,56 @@
+Program:         DirectorySnapshot
+Version:         1.0
+Date:            05/30/2014
+Website:         http://www.HumairAhmed.com
+Developer(s):    Humair Ahmed 
+
+
+License:
+
+Open source software being distributed under GPLv2 license. For more 
+information see here:
+
+http://www.gnu.org/copyleft/gpl.html. 
+ 
+Can edit and redistribute code as long as above reference of authorship 
+is kept within the code.
+
+
+Program Description:
+
+Program allows you to take a detailed inventory or snapshot of a directory and 
+automatically stores the information or tree hierarchy to a '.snap' file within
+an automatically created 'snapshots' directory. It then allows you to compare 
+several '.snap' files and display any differences in terms of added or removed 
+sub-directories or files. Below is example output when the program is started.
+Currently program is CLI based but a future Version will also allow the program
+to be run via GUI.
+
+Upcoming features planned to be added in a future release include:
+- storing the entire directory/file path for each entry
+- showing directories/files edited along with the current display of added/removed directories/files
+- allowing the user to specify where to store '.snap' files if default directory is not desirable
+- allowing the automatic upload of '.snap' files to FTP
+- allowing for renaming and deleting '.snap' files
+- GUI
+
+
+Ex:
+
+   --------------------------------------------------
+   Please select a number and press enter:
+   
+   1. Create directory snapshot
+   2, List directory snapshot files
+   3. Compare directory snapshot files
+   4. Help
+   5. Exit
+   --------------------------------------------------
+
+
+Dependencies:
+
+Python 3.3.5 was used to write this program. 
+
+
+
