@@ -1,5 +1,5 @@
 Program:         DirectorySnapshot
-Version:         2.0
+Version:         2.1
 Date:            05/31/2014
 Website:         http://www.HumairAhmed.com
 Developer(s):    Humair Ahmed 
@@ -16,7 +16,7 @@ Can edit and redistribute code as long as above reference of authorship
 is kept within the code.
 
 
-Updates/New in 2.0:
+Updates/New in 2.1:
 
 - Added 'Settings' option to main menu. Setting option leads the user to another new
 submenu. User is now able to enable FTP functionality. Once FTP is enabled, all '.snap'
@@ -32,7 +32,7 @@ automatically stores the information or tree hierarchy to a ".snap" file within
 an automatically created 'snapshots' directory. It then allows you to compare 
 several '.snap' files and display any differences in terms of added or removed 
 sub-directories or files. Below is example output when the program is started.
-User can also enable FTP functionality which will upload a copy of the '.snap' 
+User can also enable FTP functio.nality which will upload a copy of the '.snap' 
 program-created files to a FTP server.Currently program is CLI based but a 
 future version will also allow the program to be run via GUI.
 
@@ -60,6 +60,15 @@ future version will also allow the program to be run via GUI.
     3. Disable FTP upload (will delete all saved FTP information)
     4. Return to main menu
     --------------------------------------------------
+
+
+Upcoming features planned to be added in a future release include:
+
+- storing the entire directory/file path for each entry
+- showing directories/files edited along with the current display of added/removed directories/files
+- allowing the user to specify where to store '.snap' files if default directory is not desirable
+- allowing for renaming and deleting '.snap' files
+- GUI
 
 
 Dependencies:

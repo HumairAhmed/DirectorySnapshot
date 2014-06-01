@@ -1,6 +1,6 @@
 #/****************************************************************/ 
 # Program:  DierectorySnapshot
-# Version:  2.0
+# Version:  2.1
 # Date:     05/31/2014
 # Website:  http://www.HumairAhmed.com
 #
